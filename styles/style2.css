@@ -1,0 +1,305 @@
+*{
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(162, 210, 255);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+    
+    
+}
+.main{
+    flex-grow: 1;
+}
+footer{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 5vh;
+    background-color: rgb(255, 200, 221);
+
+}
+nav{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: rgb(255, 200, 221);
+}
+
+#navList{
+    font-size: 1.5em;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+#icon {
+    width: 3.5em;
+}
+h1 {
+    padding: 0em 1em;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    padding-left: 2vh;
+}
+#treeIcecream{
+    width: 90%;
+    height: 20%;
+    border-radius: 2%;
+    object-fit: cover;
+    
+}
+
+.imgSub{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+   
+}
+
+article{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 2.5em;
+}
+
+#pancake{
+    width: 70%;
+    border-radius: 8%;
+}
+
+#textHome{
+    width: 90%;
+    padding-left: 15%;
+}
+.home{
+    display: flex;
+    justify-content: center;
+}
+#aboutMain{ 
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.aboutContainer{
+    width: 65%;
+    max-height: 50vh;
+    border-radius: 8%;
+    padding: 1em;
+}
+.Pabout{
+    padding: 1em;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+}
+.contactImg{
+    width: 80%;
+    height: 20vh;
+    object-fit: cover;
+    padding: 1em 0em;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact2{
+    padding: 0em 1em;
+}
+.mainTable{
+    display: flex;
+    justify-content: center;
+    padding: 1vh 0em;
+}
+
+td, th{
+    width: 12vh;
+    height: 8vh;
+    text-align: center;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+th{
+    background-color: rgb(255, 175, 204);
+}
+td{
+    background-color: rgb(189, 224, 254);
+}
+.beneImg{
+    width: 80%;
+    height: 35vh;
+}
+.bene{
+    border: 2px solid black;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1vh 0em;
+    margin: 2vh 0em;
+}
+
+.benemain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.benediv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.beneList{
+    padding: 1vh 4vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.radio-group{
+    display: flex;
+    flex-direction: column;
+}
+.mapdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 0em;
+}
+.map{
+    width: 70%;
+    height: 40vh;
+}
+.formdiv{
+    border: 2px solid black;
+    margin: 0em 2em;
+    padding: 1em 0em;
+}
+@media (min-width: 768px){
+    nav{
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: rgb(255, 200, 221);
+    }
+    #navList{
+        width: 90%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #treeIcecream{
+        width: 90%;
+        height: 50vh;
+        border-radius: 2%;
+        object-fit: cover;
+    }
+    article{
+        flex-direction: row;
+        margin: 2.5em;
+        justify-content: space-evenly;
+    }
+    #pancake{
+        width: 40%;
+        border-radius: 8%;
+    }
+    
+    #textHome{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    #aboutMain{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .aboutContainer{
+        margin: 0vh 4vh;
+        width: 40%;
+        height: 50vh;
+        border-radius: 8%;
+    }
+    .Pabout{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        font-size: 1.3em;
+    }
+    .contactImg{
+        width: 70%;
+        height: 35em;
+        object-fit: cover;
+    }
+    .contact2{
+        flex-direction: row;
+        justify-content: space-evenly
+    }
+    
+    .mainTable{
+        display: flex;
+        justify-content: center;
+        padding: 12em 0em;
+    }
+    
+    td, th{
+        width: 12em;
+        height: 5em;
+        text-align: center;
+    }
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+    
+    }
+    th{
+        background-color: rgb(255, 175, 204);
+    }
+    td{
+        background-color: rgb(189, 224, 254);
+    }
+    .beneImg{
+        width: 20em;
+        height: 20em;
+    }
+    .bene{
+        border: 2px solid black;
+        padding: 3em 5em;
+        margin: 2em 0em;
+        width: 70%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .beneList{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 20em;
+    }
+    .benemain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em 0em;
+    }
+}
